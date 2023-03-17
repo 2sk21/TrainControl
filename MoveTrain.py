@@ -2,6 +2,10 @@
 
 import jmri
 
+# Author: Rangachari Anand
+
+
+
 class AutomatExample(jmri.jmrit.automat.AbstractAutomaton) :
 
     def __init__(self, pb, lb, ln):
